@@ -66,7 +66,7 @@ span {
     gap: 90px;
     justify-content: space-between;
     width: 100%;
-    padding: 30px;
+    padding: 10px;
 
 }
 
@@ -98,6 +98,7 @@ span {
     font-size: 38px;
     font-weight: bold;
     text-align: center;
+    padding: 20px;
 }
 .insights{
     display: flex;
@@ -114,6 +115,7 @@ span {
         font-size: 20px;
 
 }
+
 /* section-reviews */
 .review-container{
     display: flex;
@@ -166,6 +168,7 @@ svg.svg-inline--fa.fa-star {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
+    padding-top: 40px;
 }
 .focus-section{
     text-align: center;
@@ -221,8 +224,14 @@ textarea{
 
 }
 /* footer */
+ .footer-container{
+    height: 55px;
+    width: 800px;
+    padding: 20px 0 0 80px;
+    margin: 0 auto;
+ }
 .footer-content{
-
+ text-align: center;
 }
 .footer-content h2{
     font-size: 90px;
@@ -232,5 +241,23 @@ textarea{
 	-webkit-text-fill-color: transparent;
     font-weight: bold;
     text-align: center;
+   }
+ .footer-content p{
+    font-size: 17px;
+    color:rgb(139, 130, 130);
+    padding: 10px 120px;
+ }  
+
+ .footer-items{
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  padding: 10px 210px;
  
-}
+ }
+
+ a{
+    text-decoration: none;
+    color:rgb(176, 172, 172)
+    
+ }
