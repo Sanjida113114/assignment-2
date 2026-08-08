@@ -117,12 +117,7 @@ span {
     padding: 25px;
    
 }
-/* .section-bg{
-   background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("./../bg.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-} */
+
 
 .reviews{
     background-color: rgba(242, 237, 237, 1);
@@ -149,3 +144,33 @@ svg.svg-inline--fa.fa-star {
     display: flex;
     gap: 20px;
 }
+/* focus section */
+
+.focus-container{
+    background-color:#8ed0e2;
+    width: 1200px;
+    height: 600px;
+    
+}
+.focus-tittle{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.focus-section{
+    text-align: center;
+}
+.focus-section p{
+    padding: 20px;
+    font-size: 16px;
+    color:rgba(0, 0, 0, 0.5);
+}
+.focus-img{
+    margin-top: 40px;
+}
+.focus-img img{
+    border-radius: 30px;
+    padding:10px auto;
+    align-items: center;
+}
+/* get-in section */
