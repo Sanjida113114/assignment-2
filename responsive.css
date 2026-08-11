@@ -1,0 +1,43 @@
+/* banner part responsive */
+@media screen and (max-width:576px){
+    *{
+        /* overflow-x: hidden; */
+    }
+    .container{
+        height: 100%;
+        width: 100%;
+    }
+    .navbar{
+        display: none;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .action-section{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .section-content {
+         width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 10px;
+
+    }
+    .sec-img{
+        width: 100%;
+        padding: 10px;
+    }
+  .section-deshboard{
+      }
+.section-tittle .insights{
+    width: 50%;
+}
+
+
+    .form-container{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
